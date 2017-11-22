@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-3">
+      <h1><%= @restaurant.name %></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-md-offset-3">
+      <p><strong>Address:</strong> <%= @restaurant.address %></p>
+     <p><strong>Phone Number:</strong> <%= @restaurant.phone_number %></p>
+     <p><strong>Category:</strong> <%= @restaurant.category %></p>
+   </div>
+ </div>
+
+ <div class="row">
+  <div class="col-md-4 col-md-offset-3">
+    <p>
+      <%= link_to "Back To List", root_path %> |
+    </p>
+  </div>
+</div>
+
+</div>
