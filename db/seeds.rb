@@ -2,7 +2,7 @@ require 'faker'
 
 Restaurant.destroy_all
 
-5.times do
+20.times do
   address = Faker::Address.street_address
   name = Faker::Company.name
   phone_number = Faker::PhoneNumber.phone_number
