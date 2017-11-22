@@ -1,6 +1,6 @@
 require 'faker'
 
-Restaurat.destroy_all
+Restaurant.destroy_all
 
 5.times do
   address = Faker::Address.street_address
